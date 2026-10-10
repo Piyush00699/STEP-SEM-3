@@ -1,0 +1,10 @@
+Q1	C — Hiding implementation details and showing what an object does
+Q2	C — An abstract class cannot be instantiated directly
+Q3	B — The class must implement the method or be declared abstract
+Q4	C — private
+Q5	C — public, static, and final
+Q6	C — Any number of interfaces
+Q7	D — public
+Q8	C — Interfaces avoid the traditional diamond problem involving inherited instance state
+Q9	D — A compile-time error occurs until the class overrides the conflicting method
+Q10	B — Abstract classes can have constructors that run when a subclass object is created
