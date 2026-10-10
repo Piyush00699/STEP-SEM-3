@@ -1,0 +1,21 @@
+class NameTag {
+    private final String firstName;
+    private final String initial;
+
+    NameTag(String fullName) {
+        String[] name = fullName.split(" ");
+        firstName = name[0];
+        initial = name[1].substring(0, 1);
+    }
+
+    String getNickname() {
+        return firstName + " " + initial + ".";
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        NameTag tag = new NameTag("Maria Gomez");
+        System.out.println(tag.getNickname());
+    }
+}
