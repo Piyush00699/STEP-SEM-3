@@ -1,0 +1,3 @@
+Using inheritance only to reuse code can create tight coupling and incorrect relationships between classes. It can also make programs rigid and difficult to maintain.
+For example, making HelperUtility inherit from Calculator just to reuse a calculation method is inappropriate if a helper utility is not actually a calculator.
+In such cases, composition or a separate utility method is usually a better choice
