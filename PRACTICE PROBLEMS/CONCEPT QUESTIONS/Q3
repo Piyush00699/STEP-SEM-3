@@ -1,0 +1,2 @@
+Method overriding occurs when a derived class provides its own implementation of a method already defined in its base class.
+For example, an Employee class may have a calculateSalary() method. The Manager and Developer classes can override this method to calculate salaries according to their respective rules.
