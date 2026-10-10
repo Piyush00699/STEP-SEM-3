@@ -1,0 +1,4 @@
+A VehicleRental base class can contain common behavior such as calculating rental duration, storing customer details, and generating rental bills.
+The CarRental and TruckRental classes can inherit these features and override methods for their specific requirements.
+For example, CarRental may calculate charges based on car type, while TruckRental may include additional charges based on load capacity.
+This design promotes code reuse, reduces duplication, and allows new rental types to be added with minimal changes to existing code
