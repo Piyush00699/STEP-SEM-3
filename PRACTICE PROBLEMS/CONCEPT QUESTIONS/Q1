@@ -1,0 +1,2 @@
+Inheritance allows a derived class to reuse fields and methods from a base class. It can also override methods to provide its own behavior.
+For example, a Payment class can have a calculateFee() method. Classes like CardPayment and WalletPayment inherit from it and calculate fees differently.
