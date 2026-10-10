@@ -2,6 +2,4 @@ Runtime polymorphism occurs when the method executed depends on the actual objec
 
 Vehicle v = new Car();
 v.startEngine();
-
-Both objects can be processed through the same array. Calling an overridden method on each object executes its specific implementation.
-This simplifies processing and reduces the need for explicit type checking.
+If Car overrides startEngine(), Java executes the Car implementation even though the reference type is Vehicle.
