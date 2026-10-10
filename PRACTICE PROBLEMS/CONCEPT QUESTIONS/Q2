@@ -1,0 +1,3 @@
+An is-a relationship means that an object of one class is a specific type of another class. It is the basis for inheritance.
+For example, a Car is a Vehicle. Therefore, Car can inherit common properties and methods from Vehicle.
+Identifying this relationship correctly prevents inappropriate inheritance and makes the program easier to maintain.
