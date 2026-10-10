@@ -1,0 +1,11 @@
+Polymorphic collections store objects of different derived classes using a common base type.
+For example:
+
+Vehicle[] vehicles = {
+    new Car(),
+    new Motorcycle()
+};
+
+
+Both objects can be processed through the same array. Calling an overridden method on each object executes its specific implementation.
+This simplifies processing and reduces the need for explicit type checking
