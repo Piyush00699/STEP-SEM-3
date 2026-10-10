@@ -1,0 +1,5 @@
+Inherited behavior: A derived class uses a method from its base class without changing its implementation.
+Example: A Car inherits a displayBrand() method from Vehicle.
+Overridden behavior: A derived class provides its own implementation of an inherited method.
+Example: Car overrides startEngine() to provide its own engine-starting behavior.
+Inheritance is useful when the existing behavior is suitable, while overriding is useful when specialized behavior is required.
