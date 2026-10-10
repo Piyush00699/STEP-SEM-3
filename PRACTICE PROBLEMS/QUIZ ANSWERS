@@ -1,0 +1,10 @@
+1	C — Polymorphism
+2	A, B, C
+3	C — Runtime method dispatch
+4	C — Inheritance-based polymorphism
+5	A, C, D
+6	A, C
+7	C — Add WalletPayment without modifying iteration logic
+8	A — Tight coupling and incorrect is-a relationships
+9	A, C
+10	A, B, C
