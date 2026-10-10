@@ -1,0 +1,35 @@
+Q1. Explain abstraction with a real-life example.
+
+Abstraction means hiding internal implementation details and showing only the necessary features to the user.
+For example, an ATM allows users to withdraw money by entering an amount and PIN. The user does not need to know how the bank verifies the account or processes the transaction internally.
+
+
+
+
+
+2. Difference between abstraction and encapsulation
+
+Abstraction hides implementation details and focuses on what an object does. Encapsulation combines data and methods in a class and restricts direct access to the data.
+For example, a bank account class can provide a withdraw() method as abstraction, while keeping the balance private is encapsulation. Together, they simplify usage and protect data.
+
+
+
+
+3. Why can an abstract class have a constructor?
+
+An abstract class cannot be instantiated directly, but it can have a constructor to initialize common fields inherited by its subclasses.
+When a subclass object is created, the abstract class constructor executes as part of the object initialization process, before the subclass constructor body.
+
+
+
+4. Why can't an abstract method be private, static, or final?
+
+- Private: An abstract method must be implemented by a subclass, but a private method is not accessible for overriding.
+- Static: Static methods belong to the class rather than an individual object, so they cannot be overridden through runtime polymorphism.
+- Final: A final method cannot be overridden, which conflicts with the purpose of an abstract method.
+
+
+5. Explain the diamond problem and how Java addresses it.
+
+The diamond problem occurs when a class inherits the same method or state through two different parent classes, creating ambiguity about which implementation to use.
+Java avoids this traditional multiple-class-inheritance problem by allowing a class to extend only one class while implementing multiple interfaces. If two interfaces provide conflicting default methods, the implementing class must resolve the conflict by overriding the method.
