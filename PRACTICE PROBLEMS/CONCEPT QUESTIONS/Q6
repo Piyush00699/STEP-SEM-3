@@ -1,0 +1,2 @@
+Polymorphism uses method overriding to let each class implement its own behavior. Conditional logic uses if-else or switch statements to check object types and select behavior.
+Polymorphism is generally preferred because it reduces repeated conditions, makes code easier to maintain, and allows new derived classes to be added without changing the common processing logic.
