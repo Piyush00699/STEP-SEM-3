@@ -1,0 +1,3 @@
+Inheritance allows new classes to reuse common behavior from a base class, while polymorphism allows each class to implement specialized behavior.
+For example, a payment system may initially support CardPayment and BankTransferPayment. A new WalletPayment class can inherit from Payment and override calculateFee().
+The existing payment processor can handle the new class without changing its processing loop.
